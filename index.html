@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>String Calc</title>
+</head>
+
+<body>
+<main>
+    <section id="title">
+    <h1>String Calc</h1>
+    </section>
+
+    <section id="display">
+        <h2 id = "arithmetic">String arithmetic will appear here.</h2>
+        <h2 id = "finalstring">Final string will appear here.</h2>
+    </section>
+
+    <section id="inputs">
+        <label for="string1">Enter the base string:</label>
+        <textarea id="string1">String 1</textarea>
+        <label for="string2">Enter the string to be calculated with:</label>
+        <textarea id="string2">String 2</textarea>
+        <label for="formula">Select arithmetic operation to use:</label>
+        <select id="formula" value="add">
+            <option value="add">Addition</option>
+            <option value="sub">Subtraction</option>
+        </select>
+        <label for="font">Select the font for your string:</label>
+        <select id="font">
+            <option value="serif">Serif</option>
+            <option value="sans-serif">Sans-serif</option>
+            <option value="monospace">Monospace</option>
+            <option value="cursive">Cursive</option>
+            <option value="fantasy">Fantasy</option>
+        </select>
+        <label for="style">Select the style for your string:</label>
+        <select id="style">
+            <option value="normal">Normal</option>
+            <option value="italic">Italicized</option>
+            <option value="oblique">Oblique</option>
+            <option value="small-caps">Small Caps</option>
+        </select>
+        <label for="color">Choose the color for your string:</label>
+        <input type = "color" id="color" value="#000000" type="text">
+        <label for="bg">Choose the background color for your string:</label>
+        <input type = "color" id="bg" value="#ffffff" type="text">
+    </section>
+</main>
+<script src="scripts.js"></script>
+</body>
+
+</html>
